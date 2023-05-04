@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+html,body{
+	height:100vh;
+	width:100vw;
+	margin:0;
+	padding:0;
+	overflow-x: hidden;
+	background-color:#FFF5EE
+}
+form{
+	display:flex;
+	flex-direction:column;
+	gap:20px;
+	justify-content:center;
+	align-items:start;
+	padding:10px 10px;
+}
+.displayitems{
+	width:90%;
+	margin:20px;
+	
+}
+.displayitems, .displayitems td,th{
+	text-align:center;
+	border:2px solid black;
+	border-collapse:collapse;
+	background-color:white;
+}
